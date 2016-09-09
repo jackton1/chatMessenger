@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Socket.IO chat</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=0.90, maximum-scale=1, user-scalable=0" >
+    <link rel="icon" href="dist/favicon.ico">
+    <title>Chat App</title>
     <link rel="stylesheet" href="css/main.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -15,7 +16,7 @@
       <div ng-include="'html/header/header.html'"></div>
 
       <ul class="user-chat-msg">
-        <li ng-repeat="data in messages">{{data.user}}</span> : {{data.text}}</li>
+        <li ng-repeat="data in messages"><span>{{data.user}}</span> : {{data.text}}</li>
       </ul>
       <ul class="users">
         <li ng-repeat="friend in friends | moveCurrentUserToTop: name" ng-class="{'current-user': name === friend}">
@@ -26,12 +27,12 @@
       <form class="msg-sender-box" action="" ng-submit="submit()">
         <input id="m" autocomplete="off" ng-model="message"/><button>Send</button>
       </form>
-      
+
       <popup-window></popup-window>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="./socket.io/socket.io.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
     <script src="./js/app.js"></script>
