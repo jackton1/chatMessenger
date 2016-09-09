@@ -1,7 +1,7 @@
 {
-  "name": "chatMessenger",
+  "name": "SampleMessenger",
   "version": "1.0.0",
-  "description": "simple chat messenger",
+  "description": "Sample Messenger with socket.io and express",
   "devDependencies": {
     "socket.io": "^1.1.0",
     "express": "^4.9.0"
@@ -10,6 +10,5 @@
     "express": "^4.9.0",
     "socket.io": "^1.1.0"
   },
-  "author": "Tonye Jack",
-  "license": "BSD"
+  "author": "Tonye Jack"
 }

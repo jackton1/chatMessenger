@@ -2,844 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3bc721-6b8d-4496-ac37-2a7046e25caf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/main.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/html/dialog/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/html/dialog/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/html/header/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/header/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/.bin/uglifyjs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/docs/clean-examples.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/docs/clean-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/docs/clean-overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/docs/overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/.bin/rimraf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/bin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/rimraf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/test/run.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/test/setup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/test/test-async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/node_modules/rimraf/test/test-sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/tasks/clean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/test/clean_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/test/fixtures/sample_long/long.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-clean/test/fixtures/sample_short/short.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/docs/concat-examples.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/docs/concat-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/docs/concat-overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/tasks/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/tasks/lib/comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/concat_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/expected/custom_options" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/expected/default_options" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/expected/handling_invalid_files" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/expected/process_function" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/fixtures/banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/fixtures/banner2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/fixtures/banner3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/fixtures/file1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-concat/test/fixtures/file2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/docs/copy-examples.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/docs/copy-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/docs/copy-overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/docs/overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/tasks/copy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/copy_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_files/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_files/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_flatten/one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_flatten/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_flatten/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_flatten/two.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_mix/folder_one/one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_mix/folder_two/two.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_mix/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_mix/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/copy_test_v0.1.0/folder_one/one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/expected/single.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/fixtures/.hidden" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/fixtures/folder_one/one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/fixtures/folder_two/two.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/fixtures/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-copy/test/fixtures/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/docs/sass-examples.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/docs/sass-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/docs/sass-overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/async/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/async/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/async/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/async/lib/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/dargs/dargs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/dargs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/node_modules/dargs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-sass/tasks/sass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/docs/uglify-examples.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/docs/uglify-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/docs/uglify-overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/lib/contrib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/node_modules/zlib-browserify/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/node_modules/zlib-browserify/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/node_modules/zlib-browserify/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/node_modules/zlib-browserify/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/node_modules/zlib-browserify/test/zlib.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/node_modules/zlib-browserify/zlib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/node_modules/grunt-lib-contrib/test/lib_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/tasks/lib/uglify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/tasks/uglify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/comments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_beautify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_except.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/compress_mangle_sourcemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/enclose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/exportAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/multifile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/multiple_sourcemaps1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/multiple_sourcemaps1.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/multiple_sourcemaps2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/multiple_sourcemaps2.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/sourcemap_prefix" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/sourcemapin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/sourcemapin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/sourcemapurl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/expected/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/src/comments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/src/simple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/src/simple2.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/src/simple2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/fixtures/src/simple2.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt-contrib-uglify/test/uglify_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/appveyor.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/internal-tasks/bump.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/internal-tasks/subgrunt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/fail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/file.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/option.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/task.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/grunt/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/lib/util/task.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/.bin/cake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/.bin/coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/.bin/js-yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/.bin/nopt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/.bin/rimraf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/.bin/which" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/lib/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/bin/cake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/bin/coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/extras/jsl.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/cake.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/coffee-script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/grammar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/lexer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/nodes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/optparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/repl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/rewriter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/scope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/coffee-script/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/ReadMe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/colors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/themes/winston-dark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/colors/themes/winston-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/dateformat/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/dateformat/lib/dateformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/dateformat/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/dateformat/test/test_weekofyear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/dateformat/test/test_weekofyear.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/eventemitter2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/eventemitter2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/eventemitter2/lib/eventemitter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/eventemitter2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/lib/exit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/exit_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/10-stderr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/10-stdout-stderr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/10-stdout.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/100-stderr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/100-stdout-stderr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/100-stdout.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/1000-stderr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/1000-stdout-stderr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/1000-stdout.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/create-files.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/log-broken.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/exit/test/fixtures/log.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/lib/findup-sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/g.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/glob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits_browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/minimatch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/brace-expand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/caching.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/extglob-ending-with-state-char.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/00-setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-comparison.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-results.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/cwd-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/globstar-match.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/mark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/nocase-nomagic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/pause-resume.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/readme-issue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root-nomount.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/stat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/zz-cleanup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/test/findup-sync_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/test/fixtures/a.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/test/fixtures/a/b/bar.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/test/fixtures/a/foo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/findup-sync/test/fixtures/aaa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/lib/getobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/getobject/test/namespace_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/examples/g.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/examples/usr-local.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/glob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/graceful-fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/test/open.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/test/ulimit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/inherits/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/inherits/inherits.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/00-setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/bash-comparison.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/bash-results.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/cwd-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/mark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/nocase-nomagic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/pause-resume.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/root-nomount.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/root.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/glob/test/zz-cleanup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.compat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.compat.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.underscore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/dist/underscore.string.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/lib/underscore.string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/libpeerconnection.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/run-qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/strings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/strings_standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_standalone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/arrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/chaining.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/collections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/objects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/utility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-log/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv-child.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-print-text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/exec.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/exec.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/spawn-multibyte.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/spawn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/grunt-legacy-util/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/child.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/dist/ba-hooker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/dist/ba-hooker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/grunt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/lib/hooker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/parent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/hooker/test/hooker_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/encodings/big5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/encodings/gbk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/encodings/singlebyte.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/encodings/table/big5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/encodings/table/gbk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/generation/generate-big5-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/generation/generate-singlebyte.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/big5-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/big5File.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/cyrillic-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/gbk-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/gbkFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/greek-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/main-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/performance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/iconv-lite/test/turkish-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/bin/js-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/examples/custom_types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/examples/custom_types.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/examples/dumper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/examples/dumper.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/examples/sample_document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/examples/sample_document.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/dumper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/exception.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/mark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/minimal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/safe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/binary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/float.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/int.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/null.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/omap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/pairs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/seq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/str.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/timestamp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esparse" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/.bin/esvalidate" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/arguments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/choice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/nargs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/parents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/testformatters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append/constant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/constant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/false.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/true.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/subparsers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action_container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/exclusive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/const.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/added_formatters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/formatter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/namespace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/dist/underscore.string.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/lib/underscore.string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/libpeerconnection.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/run-qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings_standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_standalone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/arrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/chaining.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/collections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/objects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/utility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/esprima.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/compat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/reflect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/run.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/js-yaml/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/lodash/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/lodash/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/lodash/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/lodash/lodash.underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/lodash/lodash.underscore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/lodash/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/minimatch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/test/brace-expand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/test/caching.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/test/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/minimatch/test/extglob-ending-with-state-char.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/bin/nopt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/examples/my-program.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/lib/nopt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/node_modules/abbrev/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/node_modules/abbrev/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/node_modules/abbrev/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/node_modules/abbrev/abbrev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/node_modules/abbrev/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/node_modules/abbrev/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/nopt/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/bin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/rimraf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/test/run.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/test/setup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/test/test-async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/rimraf/test/test-sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/dist/underscore.string.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/lib/underscore.string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/run-qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/strings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/strings_standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_standalone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/arrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/chaining.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/collections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/objects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp_tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/utility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/underscore.string/test/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/which/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/which/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/which/bin/which" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/which/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/node_modules/which/which.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/grunt/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/bin/uglifyjs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/ast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/compress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/mozilla-ast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/output.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/scope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/sourcemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/async/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/async/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/async/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/async/lib/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/boolean_double.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/boolean_single.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/default_hash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/default_singles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/divide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/line_count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/line_count_options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/line_count_wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/nonopt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/reflect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/short.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/usage-options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/example/xup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/example/center.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/example/meat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/test/break.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/test/idleness.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/test/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/test/_.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/test/_/argv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/test/_/bin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/test/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/optimist/test/usage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/.tern-port" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/Makefile.dryice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/assert-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/mini-require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/prefix-source-map.jsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/prefix-utils.jsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/suffix-browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/suffix-source-map.jsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/suffix-utils.jsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/test-prefix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/build/test-suffix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64-vlq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/binary-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/lib/source-map/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/amdefine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/intercept.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/run-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64-vlq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-binary-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-dog-fooding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/test-util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/source-map/test/source-map/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/uglify-to-browserify/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/uglify-to-browserify/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/uglify-to-browserify/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/uglify-to-browserify/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/uglify-to-browserify/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/uglify-to-browserify/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/node_modules/uglify-to-browserify/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/arrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/blocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/concat-strings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/conditionals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/dead-code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/debugger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/drop-unused.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-105.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-12.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-126.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-143.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-22.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-267.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-269.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-44.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/issue-59.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/labels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/loops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/negate-iife.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/sequences.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/switch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/compress/typeof.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/test/run-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/node_modules/uglify-js/tools/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chat-spec.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/friend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/style.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/dailog/dailog.html" afterPath="$PROJECT_DIR$/public/html/dailog/dailog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/directive/directive.js" afterPath="$PROJECT_DIR$/public/js/directive/directive.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/filter/filter.js" afterPath="$PROJECT_DIR$/public/js/filter/filter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/services/services.js" afterPath="$PROJECT_DIR$/public/js/services/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/0cc8da178557ada4d20e16c2bc9be74773c1bd14/global.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/0cc8da178557ada4d20e16c2bc9be74773c1bd14/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/0cc8da178557ada4d20e16c2bc9be74773c1bd14/messages.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/0cc8da178557ada4d20e16c2bc9be74773c1bd14/users.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/19215be94c7cd76f49e0652e41abc1e3a6c19be2/global.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/19215be94c7cd76f49e0652e41abc1e3a6c19be2/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/19215be94c7cd76f49e0652e41abc1e3a6c19be2/messages.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/19215be94c7cd76f49e0652e41abc1e3a6c19be2/users.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/e2749b1901a3cb8c09c8e78cd1ae18932c575b30/global.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/e2749b1901a3cb8c09c8e78cd1ae18932c575b30/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/e2749b1901a3cb8c09c8e78cd1ae18932c575b30/messages.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.sass-cache/e2749b1901a3cb8c09c8e78cd1ae18932c575b30/users.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app2.js.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/dialog/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/dialog/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/directives/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/filters/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/global.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/messages.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scss/users.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/html/dailog/dailog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/directive/dailog/directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/filter/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chat-spec.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/css/main.css" afterPath="$PROJECT_DIR$/public/dist/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/css/main.css.map" afterPath="$PROJECT_DIR$/public/dist/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/html/dialog/about.html" afterPath="$PROJECT_DIR$/public/dist/html/dialog/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/html/header/header.html" afterPath="$PROJECT_DIR$/public/dist/html/header/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/js/app.js" afterPath="$PROJECT_DIR$/public/dist/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/header/header.html" afterPath="$PROJECT_DIR$/public/html/header/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/services.js" afterPath="$PROJECT_DIR$/public/js/services/services.js" />
     </list>
     <list id="251a54ee-4995-48cf-ab11-8c79e445079a" name="Rejected commit: Default" comment=" add project files&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/engine.io/node_modules/ws/build/Release/bufferutil.node" />
@@ -2214,18 +1416,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Web/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="130" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="130" />
+            <state relative-caret-position="17">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uglifyjs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/node_modules/.bin/uglifyjs">
+      <file leaf-file-name="messages.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scss/messages.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2234,82 +1436,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../samplemessenger-master/test/chat.spec.js">
+      <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scss/global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="59" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat-spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chat-spec.js">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/html/header/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scss/users.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/directives/dialog/dialog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/dialog/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/dist/html/dialog/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding>
-                <element signature="e#0#42#0" expanded="false" />
+                <element signature="e#188#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../samplemessenger-master/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="57" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2346,27 +1546,39 @@
         <option value="$PROJECT_DIR$/js/directive/directive.js" />
         <option value="$PROJECT_DIR$/html/dailog/dailog.html" />
         <option value="$PROJECT_DIR$/friend.js" />
-        <option value="$PROJECT_DIR$/public/html/header/header.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/test/chat-spec.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/package.json" />
+        <option value="$PROJECT_DIR$/public/js/directive/dailog/directive.js" />
+        <option value="$PROJECT_DIR$/public/js/directive/dailog/dialog.js.js" />
+        <option value="$PROJECT_DIR$/public/dist/js/app.js" />
+        <option value="$PROJECT_DIR$/public/js/directive/dailog/dialog.js" />
+        <option value="$PROJECT_DIR$/public/js/filter/filter.js" />
+        <option value="$PROJECT_DIR$/../samplemessenger-master/public/js/services/services.js" />
+        <option value="$PROJECT_DIR$/public/js/services/services.js" />
+        <option value="$PROJECT_DIR$/public/dist/index.html" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/test/chat.spec.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/package.json" />
+        <option value="$PROJECT_DIR$/public/scss/users.scss" />
+        <option value="$PROJECT_DIR$/public/scss/global.scss" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/js/directives/dialog/dialog.js" />
+        <option value="$PROJECT_DIR$/public/dist/html/dialog/about.html" />
+        <option value="$PROJECT_DIR$/public/html/dialog/about.html" />
+        <option value="$PROJECT_DIR$/public/html/header/header.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/public/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -2430,6 +1642,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="showModal&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2437,11 +1650,15 @@
       <recent name="C:\Users\jtony\Documents\PROJECTS\chatMessenger" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jtony\Documents\PROJECTS\chatMessenger\public\js\directive\dailog" />
       <recent name="C:\Users\jtony\Documents\PROJECTS\chatMessenger\public" />
       <recent name="C:\Users\jtony\Documents\PROJECTS\chatMessenger\public\html" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.server.js">
+    <configuration default="false" name="Gruntfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Gruntfile.js" working-dir="$PROJECT_DIR$/public">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -2492,12 +1709,21 @@
     <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -2506,7 +1732,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473396026508</updated>
-      <workItem from="1473396028175" duration="17308000" />
+      <workItem from="1473396028175" duration="23024000" />
     </task>
     <task id="LOCAL-00001" summary="Added friend.js and modified server.js&#10;">
       <created>1473442967274</created>
@@ -2522,11 +1748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473444657743</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" add project files&#10;">
+      <created>1473448895285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473448895285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17308000" />
+    <option name="totallyTimeSpent" value="23024000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -2539,24 +1772,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036928" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2599,66 +1833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/dailog/dailog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#298#305#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/friend.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/directive/directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/filter/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../samplemessenger-master/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2703,14 +1881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2735,14 +1905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -2759,26 +1921,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/public/html/dailog/dailog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/public/js/directive/dailog/directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="204">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/package.json">
+    <entry file="file://$PROJECT_DIR$/public/js/directive/dailog/dialog.js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="231">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/html/dailog/dailog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/html/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../samplemessenger-master/public/js/directives/dialog/dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="23" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../samplemessenger-master/public/js/filters/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/filter/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../samplemessenger-master/public/js/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../samplemessenger-master/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -2787,19 +2021,201 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/filter/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/directive/dailog/dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../samplemessenger-master/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="576">
+          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chat.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="185" column="4" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/html/dialog/dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/filters/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/users.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/messages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scss/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/directives/dialog/dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/html/dialog/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#188#195#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/dialog/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

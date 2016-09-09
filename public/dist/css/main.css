@@ -22,10 +22,10 @@ body {
   .msg-sender-box input {
     border: 0;
     padding: 10px;
-    width: 90%;
+    width: 79%;
     margin-right: .5%; }
   .msg-sender-box button {
-    width: 9%;
+    width: 20%;
     background: #82e0ff;
     border: none;
     padding: 10px; }
@@ -50,7 +50,7 @@ body {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  width: 10%;
+  width: 20%;
   height: 80%;
   position: absolute;
   top: 10%;
