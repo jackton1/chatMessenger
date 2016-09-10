@@ -8,7 +8,6 @@ var USER_LEFT = 'user:left';
 var CHAT_ROOM = 'chatroom';
 var ERR_CHANGING_NAME = 'There was an error changing your name';
 var $chatBox = $(".user-chat-msg");
-var $drpDown = $(".collapse");
 
 var app = ng.module('app', ['services', 'custom-filters', 'dialog']);
 
@@ -78,7 +77,7 @@ app.controller('FormController', ['$scope', 'socket', function($scope, socket){
 
 	//Close dialog box
 	$scope.hideModal();
-	  $drpDown.removeClass("in");
+	  $(".collapse").removeClass("in");
 	  //scroll to the bottom
 	  $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
   };

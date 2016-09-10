@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3bc721-6b8d-4496-ac37-2a7046e25caf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/js/app.js" afterPath="$PROJECT_DIR$/public/dist/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
     </list>
@@ -61,8 +60,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+            <state relative-caret-position="415">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +81,18 @@
         <entry file="file://$PROJECT_DIR$/public/dist/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
-              <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
-              <folding />
+              <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+              <folding>
+                <marker date="1473532616277" expanded="true" signature="1955:1961" ph="{...}" />
+                <marker date="1473532616277" expanded="true" signature="1955:2493" ph="{...}" />
+                <marker date="1473532616277" expanded="true" signature="1996:2254" ph="{...}" />
+                <marker date="1473532616277" expanded="true" signature="2024:2056" ph="{&quot;name&quot;: $scope.friend.name...}" />
+                <marker date="1473532616277" expanded="true" signature="2074:2248" ph="{...}" />
+                <marker date="1473532616277" expanded="true" signature="2090:2124" ph="{...}" />
+                <marker date="1473532616277" expanded="true" signature="2128:2245" ph="{...}" />
+                <marker date="1473532616277" expanded="true" signature="2285:2491" ph="{...}" />
+                <marker date="1473532616277" expanded="true" signature="2357:2405" ph="{&quot;user&quot;: $scope.name...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -558,7 +567,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473396026508</updated>
-      <workItem from="1473396028175" duration="44043000" />
+      <workItem from="1473396028175" duration="44348000" />
     </task>
     <task id="LOCAL-00001" summary="Added friend.js and modified server.js&#10;">
       <created>1473442967274</created>
@@ -620,7 +629,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44043000" />
+    <option name="totallyTimeSpent" value="44348000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1051,8 +1060,18 @@
     <entry file="file://$PROJECT_DIR$/public/dist/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
-          <folding />
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+          <folding>
+            <marker date="1473532616277" expanded="true" signature="1955:1961" ph="{...}" />
+            <marker date="1473532616277" expanded="true" signature="1955:2493" ph="{...}" />
+            <marker date="1473532616277" expanded="true" signature="1996:2254" ph="{...}" />
+            <marker date="1473532616277" expanded="true" signature="2024:2056" ph="{&quot;name&quot;: $scope.friend.name...}" />
+            <marker date="1473532616277" expanded="true" signature="2074:2248" ph="{...}" />
+            <marker date="1473532616277" expanded="true" signature="2090:2124" ph="{...}" />
+            <marker date="1473532616277" expanded="true" signature="2128:2245" ph="{...}" />
+            <marker date="1473532616277" expanded="true" signature="2285:2491" ph="{...}" />
+            <marker date="1473532616277" expanded="true" signature="2357:2405" ph="{&quot;user&quot;: $scope.name...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+        <state relative-caret-position="415">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>
