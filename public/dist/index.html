@@ -14,11 +14,9 @@
   <body>
     <div ng-controller="FormController">
       <div ng-include="'html/header/header.html'"></div>
-      <div class="over_flow">
           <ul class="user-chat-msg">
             <li ng-repeat="data in messages"><span>{{data.user}}</span> : {{data.text}}</li>
           </ul>
-      </div>
           <ul class="users">
             <li ng-repeat="friend in friends | moveCurrentUserToTop: name" ng-class="{'current-user': name === friend}">
               <span ng-if="friend === name">{{friend}} (me)</span>

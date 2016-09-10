@@ -41,12 +41,10 @@ body {
   width: 100%;
   padding: 0; }
   .user-chat-msg li {
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    overflow: auto; }
   .user-chat-msg li:nth-child(odd) {
     background: #eee; }
-
-div.over_flow {
-  overflow: scroll; }
 
 .users {
   list-style-type: none;
