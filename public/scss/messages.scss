@@ -9,10 +9,12 @@
     position:fixed;
     top:10%;
     width:100%;
+    overflow: scroll;
+    height: 83%;
 
     padding: 0;
 
-    li { padding: 5px 10px; overflow: auto; }
+    li { padding: 5px 10px;}
 
     li:nth-child(odd){ background: #eee; }
 }
