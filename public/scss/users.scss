@@ -1,9 +1,9 @@
 .users{
     @include list-style(none);
     @include border-radius(5px);
-    @include resize-box(20%, 83%);
+    @include resize-box(20%, 80%);
 
-    position:absolute;
+    position: fixed;
     top:10%;
     right:0;
     background-color:#b0e0e6;
