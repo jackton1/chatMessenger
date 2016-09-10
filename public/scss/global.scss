@@ -8,6 +8,7 @@ $font-stack: Helvetica, Arial;
 body {
     font: 13px $font-stack;
     max-width: 100%;
+    overflow: auto;
 }
 
 /*
@@ -15,7 +16,7 @@ body {
 */
 
 .msg-sender-box{
-    background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%;
+    background: #000; padding: 3px; position: absolute; bottom: 0; width: 100%;
 
     input {
         border: 0;

@@ -1,7 +1,7 @@
 .users{
     @include list-style(none);
     @include border-radius(5px);
-    @include resize-box(20%, 80%);
+    @include resize-box(20%, 83%);
 
     position:absolute;
     top:10%;
@@ -10,7 +10,6 @@
     margin:0 5px 0 0;
     padding:5px;
     border:1px solid #000;
-    
     display:inline-block;
     overflow: auto;
 }

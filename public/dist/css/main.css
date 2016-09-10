@@ -9,7 +9,8 @@
 
 body {
   font: 13px Helvetica, Arial;
-  max-width: 100%; }
+  max-width: 100%;
+  overflow: auto; }
 
 /*
 .msg-sender-box { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
@@ -17,7 +18,7 @@ body {
 .msg-sender-box {
   background: #000;
   padding: 3px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%; }
   .msg-sender-box input {
@@ -36,6 +37,7 @@ body {
   margin-bottom: 70px; }
 
 .user-chat-msg {
+  overflow: auto;
   position: fixed;
   top: 10%;
   width: 100%;
@@ -52,7 +54,7 @@ body {
   -ms-border-radius: 5px;
   border-radius: 5px;
   width: 20%;
-  height: 80%;
+  height: 83%;
   position: absolute;
   top: 10%;
   right: 0;
