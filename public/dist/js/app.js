@@ -99,7 +99,8 @@ app.controller('FormController', ['$scope', 'socket', function($scope, socket){
 		user: $scope.name,
 		text: $scope.message
 	});
-
+	  var $chatBox = $(".user-chat-msg");
+	  $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
 	$scope.message = "";
   }
 }]);
