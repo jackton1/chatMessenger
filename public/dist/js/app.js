@@ -7,6 +7,7 @@ var USER_JOIN = 'user:join';
 var USER_LEFT = 'user:left';
 var CHAT_ROOM = 'chatroom';
 var ERR_CHANGING_NAME = 'There was an error changing your name';
+var $chatBox = $(".user-chat-msg");
 
 var app = ng.module('app', ['services', 'custom-filters', 'dialog']);
 
@@ -24,6 +25,7 @@ app.controller('FormController', ['$scope', 'socket', function($scope, socket){
 
   socket.on(SEND_MSG, function(msg){
 	$scope.messages.push(msg);
+	  $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
   });
 
   socket.on(CHANGE_NAME, function(data){
@@ -99,8 +101,7 @@ app.controller('FormController', ['$scope', 'socket', function($scope, socket){
 		user: $scope.name,
 		text: $scope.message
 	});
-	  var $chatBox = $(".user-chat-msg");
-	  $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
+	$chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
 	$scope.message = "";
   }
 }]);
