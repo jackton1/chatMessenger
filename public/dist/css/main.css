@@ -41,6 +41,7 @@ body {
   width: 100%;
   overflow: scroll;
   height: 83%;
+  overflow-x: hidden;
   padding: 0; }
   .user-chat-msg li {
     padding: 5px 10px; }
