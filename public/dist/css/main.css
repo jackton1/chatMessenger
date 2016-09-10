@@ -45,8 +45,8 @@ body {
   .user-chat-msg li:nth-child(odd) {
     background: #eee; }
 
-.over_flow {
-  overflow: auto; }
+div.over_flow {
+  overflow: scroll; }
 
 .users {
   list-style-type: none;

@@ -19,14 +19,12 @@
             <li ng-repeat="data in messages"><span>{{data.user}}</span> : {{data.text}}</li>
           </ul>
       </div>
-        <div class="over_flow">
           <ul class="users">
             <li ng-repeat="friend in friends | moveCurrentUserToTop: name" ng-class="{'current-user': name === friend}">
               <span ng-if="friend === name">{{friend}} (me)</span>
               <span ng-if="friend !== name">{{friend}}</span>
             </li>
           </ul>
-        </div>
       <form class="msg-sender-box" action="" ng-submit="submit()">
         <input id="m" autocomplete="off" ng-model="message"/><button>Send</button>
       </form>
