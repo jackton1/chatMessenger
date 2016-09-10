@@ -20,7 +20,7 @@ var MessengerApi = function(){
         
         //For socket.io.client to work
         self.io = server(appHttp);
-    }
+    };
 
     self.startApp = function(){
         self.init();
@@ -32,7 +32,7 @@ var MessengerApi = function(){
         });
 
         self.startServerMessenger();
-    }
+    };
 
     self.startServerMessenger = function(){
         var CONNECTION = 'connection';
