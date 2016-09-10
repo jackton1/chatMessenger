@@ -39,10 +39,11 @@ body {
   position: fixed;
   top: 10%;
   width: 100%;
+  overflow: scroll;
+  height: 83%;
   padding: 0; }
   .user-chat-msg li {
-    padding: 5px 10px;
-    overflow: auto; }
+    padding: 5px 10px; }
   .user-chat-msg li:nth-child(odd) {
     background: #eee; }
 
