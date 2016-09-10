@@ -30,7 +30,6 @@ app.controller('FormController', ['$scope', 'socket', function($scope, socket){
 
   socket.on(CHANGE_NAME, function(data){
 	changeName(data.prevName, data.currentName);
-	  $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
   });
 
   socket.on(USER_JOIN, function(data){
@@ -78,6 +77,8 @@ app.controller('FormController', ['$scope', 'socket', function($scope, socket){
 
 	//Close dialog box
 	$scope.hideModal();
+	  //scroll to the bottom
+	  $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
   };
 
   $scope.changeName = function(){
