@@ -36,7 +36,6 @@ body {
   margin-bottom: 70px; }
 
 .user-chat-msg {
-  overflow: auto;
   position: fixed;
   top: 10%;
   width: 100%;
@@ -45,6 +44,9 @@ body {
     padding: 5px 10px; }
   .user-chat-msg li:nth-child(odd) {
     background: #eee; }
+
+.over_flow {
+  overflow: auto; }
 
 .users {
   list-style-type: none;
