@@ -69,17 +69,13 @@ var MessengerApi = function(){
 
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
-            var name = userNames.getGuestName("");   //returns string of the user name Guest 1
-            var friendList = userNames.getFriends();
+            var name;   //returns string of the user name Guest 1
 
              if (user !== "" ) {
-                 friendList.forEach(function (i, v) { //[amy, jane, paul]
-                     if (v == name) {
-                         delete friendList[i+1];
-                     }
-                 });
                  name = user;
                  user = "";
+             }else{
+                 name = userNames.getGuestName()
              }
             //send the new user their name and a list of friends
             socket.emit(INIT, {name: name, friends: userNames.getFriends()});
@@ -116,9 +112,6 @@ var MessengerApi = function(){
                 console.log('user ' + name + ' has left.');
                 socket.broadcast.emit(USER_LEFT, {name: name});
                 userNames.removeFriend(name);
-                if (self.user !== "" && self.user != undefined) {
-                    userNames.removeFriend(self.name);
-                }
             });
         });
     }
