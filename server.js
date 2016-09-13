@@ -65,7 +65,6 @@ var MessengerApi = function(){
                 self.user = name;
                 res.end();
             });
-gi
         });
 
         self.socket.on(CONNECTION, function(socket){
