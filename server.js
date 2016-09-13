@@ -4,6 +4,7 @@ var express = require('express');
 var appHttp = require('http');
 var server = require('socket.io');
 var userNames = require('./friends');
+var urlcodeJson = require('urlcode-json');
 
 var MessengerApi = function(){
     var self = this;
@@ -50,13 +51,39 @@ var MessengerApi = function(){
         //hence http.Server instance returned by self.http.listen
         self.socket = self.io.listen(self.appServer);
 
+        self.user = "";
+
+        self.app.post('/', function (req, res) {
+            //get the login details
+            var data = "";
+            req.on("data", function (chunk) {
+                data += chunk;
+            }).on("end", function () {
+                var userInfo = urlcodeJson.decode(data);
+                var name = userInfo.username;
+                console.log(name);
+                res.writeHead(303, {"Location": "/"});
+                self.user = name;
+                res.end();
+            });
+
+        });
+
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
-
-            var name = userNames.getGuestName();
+            var name;
+            var friendList;
+            console.log(self.user);
+            if (self.user !== ""){
+               name = self.user;
+                friendList = [self.user, userNames.getFriends()];
+            }else{
+                name = userNames.getGuestName();
+                friendList = userNames.getFriends();
+            }
 
             //send the new user their name and a list of friends
-            socket.emit(INIT, {name: name, friends: userNames.getFriends()});
+            socket.emit(INIT, {name: name, friends: friendList});
 
             //notify other clients that a new user has joined
             socket.broadcast.emit(USER_JOIN, {name: name});

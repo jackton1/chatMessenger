@@ -7,7 +7,6 @@
 	var CHAT_ROOM = 'chatroom';
 	var ERR_CHANGING_NAME = 'There was an error changing your name';
 	var $chatBox = $(".user-chat-msg");
-	var audio = new Audio("sound/message.mp3") || document.getElementById("audioNg1");
 
 	var app = ng.module('app', ['services', 'custom-filters', 'dialog']);
 
@@ -17,6 +16,12 @@
 	  $scope.messages = [];
 	  $scope.friends = [];
 	  $scope.friend = {name: ""};
+      $scope.audio = new Audio("sound/message.mp3") || document.getElementById("audioNg1");
+        $scope.mute = false;
+        $scope.muteSound = function(){
+           $scope.mute = !$scope.mute;
+            document.getElementById("mute").innerHTML = ($scope.mute) ? "Play Sound" : "Mute Sound";
+        };
 
 	  //Initialize Socket listeners
 	  socket.on(INIT, function(data){
@@ -105,8 +110,10 @@
 			text: $scope.message
 		});
 		$chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
-          audio.load();
-          audio.play();
+        if(!$scope.mute){
+            $scope.audio.load();
+            $scope.audio.play();
+        }
 		$scope.message = "";
 	  }
 	}]);
