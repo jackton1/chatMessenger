@@ -40,7 +40,7 @@ body {
   position: absolute;
   overflow: scroll;
   padding: 0;
-  top: 10vh;
+  top: 10%;
   width: 100vw;
   height: 83vh;
   overflow-x: hidden; }
