@@ -5,14 +5,13 @@
 
 .user-chat-msg{
     @extend .msg;
-
-    position:fixed;
-    top:14vh;
-    width:100vw;
+    position: absolute;
     overflow: scroll;
+    padding: 0;
+    top:9vh;
+    width:100vw;
     height: 83vh;
     overflow-x: hidden;
-    padding: 0;
 
     li { padding: 5px 10px;}
 

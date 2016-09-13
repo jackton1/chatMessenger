@@ -17,9 +17,9 @@ body {
 .msg-sender-box {
   background: #000;
   padding: 3px;
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
+  position: fixed;
+  bottom: 2vh;
+  width: 100vw; }
   .msg-sender-box input {
     border: 0;
     padding: 10px;
@@ -36,13 +36,13 @@ body {
   margin-bottom: 70px; }
 
 .user-chat-msg {
-  position: fixed;
-  top: 14vh;
-  width: 100vw;
+  position: absolute;
   overflow: scroll;
+  padding: 0;
+  top: 9vh;
+  width: 100vw;
   height: 83vh;
-  overflow-x: hidden;
-  padding: 0; }
+  overflow-x: hidden; }
   .user-chat-msg li {
     padding: 5px 10px; }
   .user-chat-msg li:nth-child(odd) {
