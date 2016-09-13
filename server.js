@@ -61,7 +61,6 @@ var MessengerApi = function(){
             }).on("end", function () {
                 var userInfo = urlcodeJson.decode(data);
                 var name = userInfo.username;
-                console.log(name);
                 res.writeHead(303, {"Location": "/"});
                 self.user = name;
                 res.end();
@@ -73,7 +72,6 @@ var MessengerApi = function(){
             console.log('a user connected');
             var name;
             var friendList;
-            console.log(self.user);
             if (self.user !== ""){
                name = self.user;
                 friendList = [self.user, userNames.getFriends()];
