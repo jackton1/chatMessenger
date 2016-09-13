@@ -26,7 +26,8 @@ module.exports = function(grunt) {
           {expand:true, flatten:true, src:['./*.html'], dest:"<%=DIST_DIR%>", filter:'isFile'},
           {expand:true, flatten:false, src:['html/**/*.html'], dest:"<%=DIST_DIR%>", filter:'isFile'},
           {expand:true, flatten:true, src:['lib/*'], dest:"<%=DIST_DIR%>/lib"},
-          {expand:true, flatten:true, src:['img/*.gif', 'app/img/*.png'], dest:"./dist/www/img"}
+          {expand:true, flatten:true, src:['img/*.gif', 'app/img/*.png'], dest:"./dist/www/img"},
+          {expand:true, flatten:false, src:['sound/*.mp3'], dest:"<%=DIST_DIR%>"}
         ]
       }
     },

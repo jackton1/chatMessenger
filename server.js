@@ -26,9 +26,10 @@ var MessengerApi = function(){
         self.init();
 
         //For socket.io.client to work
-        //Assigned the 
-        self.appServer = self.http.listen(process.env.PORT || 3000, function(){
-            console.log('listening on : 3000');
+        //Assigned the port
+        var port = process.env.PORT || 3000;
+        self.appServer = self.http.listen(port, function(){
+            console.log('listening on :'+ port);
         });
 
         self.startServerMessenger();
@@ -37,13 +38,12 @@ var MessengerApi = function(){
     self.startServerMessenger = function(){
         var CONNECTION = 'connection';
         var DISCONNECT = 'disconnect';
-
         var SEND_MSG = 'send:message';
         var INIT = 'init';
         var CHANGE_NAME = 'change:name';
         var USER_JOIN = 'user:join';
         var USER_LEFT = 'user:left';
-        var CHAT_ROOM = 'chatroom';
+        //var CHAT_ROOM = 'chatroom';
 
         //For socket.io.client to work
         //io.listen should be passed an http.Server instance, 
