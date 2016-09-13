@@ -21,17 +21,18 @@ friends.getGuestName = function(new_name){
     do{
         if (new_name !== ""){
             names[index] = new_name;
-            if (names[index] !== "" && names[index] !== undefined){
+            if (names[index] !== "" && names[index] !== undefined) {
                 name = names[index];
                 index += 1;
-            }else{
-                index -= 1;
             }
         }else {
-            name = 'Guest ' + nextUserId;
-            nextUserId += 1;
+            if(names[index] == undefined){
+                name = 'Guest ' + nextUserId;
+                nextUserId += 1;
+            }
+            index -= 1;
         }
-    }while(!friends.claim(name));
+    }while(!friends.claim(name) && !friends.claim(names[index]));
 
     return name;
 };
