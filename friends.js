@@ -16,23 +16,15 @@ var index = 0;
 **/
 friends.getGuestName = function(new_name){
     var name; var nextUserId = 1;
-    var names = [];
 
     do{
-        if (new_name !== ""){
-            names[index] = new_name;
-            if (names[index] !== "" && names[index] !== undefined) {
-                name = names[index];
-                index += 1;
-            }
+        if (new_name !== "" && new_name !== undefined){
+            name = new_name;
         }else {
-            if(names[index] == undefined){
                 name = 'Guest ' + nextUserId;
                 nextUserId += 1;
-            }
-            index -= 1;
         }
-    }while(!friends.claim(name) && !friends.claim(names[index]));
+    }while(!friends.claim(name));
 
     return name;
 };

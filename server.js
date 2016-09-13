@@ -70,10 +70,12 @@ var MessengerApi = function(){
             console.log('a user connected');
             var name = userNames.getGuestName("");   //returns string of the user name Guest 1
             if (self.user !== "" && self.user != undefined) {
-                name = userNames.getGuestName(self.user);
+                //send the new user their name and a list of friends
+                socket.emit(INIT, {name: userNames.getGuestName(self.user), friends: userNames.getFriends()});
+            }else{
+                //send the new user their name and a list of friends
+                socket.emit(INIT, {name: name, friends: userNames.getFriends()});
             }
-            //send the new user their name and a list of friends
-            socket.emit(INIT, {name: name, friends: userNames.getFriends()});
 
             //notify other clients that a new user has joined
             socket.broadcast.emit(USER_JOIN, {name: name});
@@ -107,6 +109,9 @@ var MessengerApi = function(){
                 console.log('user ' + name + ' has left.');
                 socket.broadcast.emit(USER_LEFT, {name: name});
                 userNames.removeFriend(name);
+                if (self.user !== "" && self.user != undefined) {
+                    userNames.removeFriend(self.name);
+                }
             });
         });
     }
