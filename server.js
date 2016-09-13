@@ -65,7 +65,7 @@ var MessengerApi = function(){
                 self.user = name;
                 res.end();
             });
-
+gi
         });
 
         self.socket.on(CONNECTION, function(socket){
@@ -73,8 +73,11 @@ var MessengerApi = function(){
             var name = userNames.getGuestName();   //returns string of the user name
             var friendList = userNames.getFriends();  //returns an array of names
             if (self.user !== "" && friendList.indexOf(self.user) == -1) {
-                var index = friendList.indexOf(name);
-                friendList[index] = self.user;
+                friendList.forEach(function (i, v) { //[amy, jane, paul]
+                   if( v == name){
+                       friendList[i] = self.name;
+                   }
+                });
                 name = name.replace(name, self.user);
             }
             //send the new user their name and a list of friends
