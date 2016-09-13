@@ -50,7 +50,6 @@ var MessengerApi = function(){
         //io.listen should be passed an http.Server instance, 
         //hence http.Server instance returned by self.http.listen
         self.socket = self.io.listen(self.appServer);
-        self.user = "";
 
         self.app.post('/', function (req, res) {
             //get the login details
@@ -70,7 +69,7 @@ var MessengerApi = function(){
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
             var name = userNames.getGuestName("");   //returns string of the user name Guest 1
-            if (self.user !== "") {
+            if (self.user !== "" && self.user != undefined) {
                 name = userNames.getGuestName(self.user);
             }
             //send the new user their name and a list of friends
