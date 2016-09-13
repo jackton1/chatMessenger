@@ -18,11 +18,11 @@ friends.getGuestName = function(new_name){
     var name; var nextUserId = 1;
 
     do{
-        if (new_name !== "" && new_name !== undefined){
+        if (new_name !== ""){
             name = new_name;
         }else {
-                name = 'Guest ' + nextUserId;
-                nextUserId += 1;
+            name = 'Guest ' + nextUserId;
+            nextUserId += 1;
         }
     }while(!friends.claim(name));
 
@@ -32,19 +32,12 @@ friends.getGuestName = function(new_name){
 /**
 * Serialize claimed names.
 */
-friends.getFriends = function(userList){
+friends.getFriends = function(users){
     var names = [];
     var name;
 
     for(name in friends.names) {
         names.push(name);
-        if (userList.length > 0) {
-            userList.forEach(function (value, index) {
-                if (value == name) {
-                    delete names[index + 1];
-                }
-            });
-        }
     }
     return names;
 };
