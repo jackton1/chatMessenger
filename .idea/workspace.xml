@@ -424,7 +424,7 @@
       <option name="presentableId" value="Default" />
       <updated>1473396026508</updated>
       <workItem from="1473396028175" duration="46550000" />
-      <workItem from="1473702389373" duration="31005000" />
+      <workItem from="1473702389373" duration="31092000" />
     </task>
     <task id="LOCAL-00001" summary="Added friend.js and modified server.js&#10;">
       <created>1473442967274</created>
@@ -486,7 +486,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77555000" />
+    <option name="totallyTimeSpent" value="77642000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
