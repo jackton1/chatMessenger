@@ -60,7 +60,7 @@ var MessengerApi = function(){
                 data += chunk;
             }).on("end", function () {
                 var userInfo = urlcodeJson.decode(data);
-                var name = userInfo.username;
+                var name = userInfo.username.replace("+", " ");
                 res.writeHead(303, {"Location": "/"});
                 self.user = name;
                 res.end();
