@@ -32,12 +32,19 @@ friends.getGuestName = function(new_name){
 /**
 * Serialize claimed names.
 */
-friends.getFriends = function(){
+friends.getFriends = function(userList){
     var names = [];
     var name;
 
     for(name in friends.names) {
         names.push(name);
+        if (userList.length > 0) {
+            userList.forEach(function (value, index) {
+                if (value == name) {
+                    delete names[index + 1];
+                }
+            });
+        }
     }
     return names;
 };
