@@ -37,10 +37,10 @@ body {
 
 .user-chat-msg {
   position: fixed;
-  top: 10%;
-  width: 100%;
+  top: 14vh;
+  width: 100vw;
   overflow: scroll;
-  height: 83%;
+  height: 83vh;
   overflow-x: hidden;
   padding: 0; }
   .user-chat-msg li {
