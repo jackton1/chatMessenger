@@ -17,7 +17,7 @@ body {
 .msg-sender-box {
   background: #000;
   padding: 3px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%; }
   .msg-sender-box input {
