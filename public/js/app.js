@@ -32,6 +32,10 @@
 	  socket.on(SEND_MSG, function(msg){
 		$scope.messages.push(msg);
           $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
+          if(!$scope.mute){
+              $scope.audio.load();
+              $scope.audio.play();
+          }
 	  });
 
 	  socket.on(CHANGE_NAME, function(data){
