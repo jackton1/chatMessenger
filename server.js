@@ -69,7 +69,7 @@ var MessengerApi = function(){
 
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
-            var name = userNames.getGuestName();   //returns string of the user name Guest 1
+            var name = userNames.getGuestName("");   //returns string of the user name Guest 1
             if (self.user !== "") {
                 name = userNames.getGuestName(self.user);
             }
