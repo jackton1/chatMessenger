@@ -65,19 +65,21 @@ var MessengerApi = function(){
                 self.user = name;
                 res.end();
             });
+
         });
 
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
             var name = userNames.getGuestName();   //returns string of the user name
             var friendList = userNames.getFriends();  //returns an array of names
-            if (self.user !== "" && friendList.indexOf(self.user) == -1) {
-                friendList.forEach(function (i, v) { //[amy, jane, paul]
-                   if( v == name){
-                       friendList[i] = self.name;
-                   }
-                });
-                name = name.replace(name, self.user);
+            var length = friendList.length;
+            while(length >= 0) {
+                if (self.user !== "" && friendList.indexOf(self.user) == -1) {
+                    var index = friendList.indexOf(name);
+                    name = name.replace(name, self.user);
+                    friendList[index] = name;
+                }
+                length--;
             }
             //send the new user their name and a list of friends
             socket.emit(INIT, {name: name, friends: friendList});
