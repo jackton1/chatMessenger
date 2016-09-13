@@ -31,6 +31,7 @@
 
 	  socket.on(SEND_MSG, function(msg){
 		$scope.messages.push(msg);
+          $chatBox.animate({scrollTop: $chatBox[0].scrollHeight});
 	  });
 
 	  socket.on(CHANGE_NAME, function(data){
