@@ -13,12 +13,16 @@ friends.claim = function(name){
 /*
 * Use LRU pattern to find unused guest name and claim it.
 **/
-friends.getGuestName = function(){
+friends.getGuestName = function(new_name){
     var name; var nextUserId = 1;
 
     do{
-        name = 'Guest ' + nextUserId;
-        nextUserId += 1;
+        if (new_name){
+            name = new_name;
+        }else {
+            name = 'Guest ' + nextUserId;
+            nextUserId += 1;
+        }
     }while(!friends.claim(name));
 
     return name;

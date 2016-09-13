@@ -50,7 +50,6 @@ var MessengerApi = function(){
         //io.listen should be passed an http.Server instance, 
         //hence http.Server instance returned by self.http.listen
         self.socket = self.io.listen(self.appServer);
-
         self.user = "";
 
         self.app.post('/', function (req, res) {
@@ -60,9 +59,9 @@ var MessengerApi = function(){
                 data += chunk;
             }).on("end", function () {
                 var userInfo = urlcodeJson.decode(data);
-                var name = userInfo.username.replace("+", " ");
+                var username = userInfo.username.replace("+", " ");
                 res.writeHead(303, {"Location": "/"});
-                self.user = name; //If a post req is a new username
+                self.user = username; //If a post req is a new username
                 res.end();
             });
 
@@ -71,22 +70,12 @@ var MessengerApi = function(){
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
             var name = userNames.getGuestName();   //returns string of the user name Guest 1
-            var friendList = userNames.getFriends();  //returns an array of names [Guest1, Guest2]
-
             if (self.user !== "" && friendList.indexOf(self.user) == -1) {
-                var index = [];
-                var new_name = name.replace(name, self.user);
-                friendList.forEach(function (item, index){
-                    if(name == item){
-                        friendList[index] = new_name
-                    }
-                });//stores the index of the name Guest1 Guest 2
-                //send the new user their name and a list of friends
-                socket.emit(INIT, {name: new_name, friends: friendList});
-            }else{
-                //send the new user their name and a list of friends
-                socket.emit(INIT, {name: name, friends: friendList});
+                name = userNames.getGuestName(self.user);
             }
+            var friendList = userNames.getFriends();  //returns an array of names [Guest1, Guest2]
+            //send the new user their name and a list of friends
+            socket.emit(INIT, {name: name, friends: friendList});
 
             //notify other clients that a new user has joined
             socket.broadcast.emit(USER_JOIN, {name: name});

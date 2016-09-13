@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3bc721-6b8d-4496-ac37-2a7046e25caf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/friends.js" afterPath="$PROJECT_DIR$/friends.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <list id="251a54ee-4995-48cf-ab11-8c79e445079a" name="Rejected commit: Default" comment=" add project files&#10;" />
@@ -41,8 +42,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+            <state relative-caret-position="219">
+              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -51,8 +52,18 @@
       <file leaf-file-name="friends.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/friends.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +114,6 @@
         <option value="$PROJECT_DIR$/public/scss/messages.scss" />
         <option value="$PROJECT_DIR$/public/scss/users.scss" />
         <option value="$PROJECT_DIR$/nd.js" />
-        <option value="$PROJECT_DIR$/friends.js" />
         <option value="$PROJECT_DIR$/public/dist/index.html" />
         <option value="$PROJECT_DIR$/public/js/ng-audio/ng-audio.min.js" />
         <option value="$PROJECT_DIR$/public/Gruntfile.js" />
@@ -115,6 +125,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/friends.js" />
       </list>
     </option>
   </component>
@@ -387,7 +398,7 @@
       <option name="presentableId" value="Default" />
       <updated>1473396026508</updated>
       <workItem from="1473396028175" duration="46550000" />
-      <workItem from="1473702389373" duration="41930000" />
+      <workItem from="1473702389373" duration="44254000" />
     </task>
     <task id="LOCAL-00001" summary="Added friend.js and modified server.js&#10;">
       <created>1473442967274</created>
@@ -449,7 +460,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88480000" />
+    <option name="totallyTimeSpent" value="90804000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -817,24 +828,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        <state relative-caret-position="17">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/friends.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+        <state relative-caret-position="219">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
           <folding />
         </state>
       </provider>
