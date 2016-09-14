@@ -73,7 +73,6 @@ var MessengerApi = function(){
 
              if (user !== "" ) {
                  name = user;
-                 user = "";
              }else{
                  name = userNames.getGuestName()
              }
@@ -112,6 +111,9 @@ var MessengerApi = function(){
                 console.log('user ' + name + ' has left.');
                 socket.broadcast.emit(USER_LEFT, {name: name});
                 userNames.removeFriend(name);
+                 if (user !== "" ) {
+                    user = "";
+                 }
             });
         });
     }
