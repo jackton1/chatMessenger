@@ -73,7 +73,8 @@ var MessengerApi = function(){
              if (self.user !== "") {
                  name = self.user;
                  //send the new user their name and a list of friends
-                 friendList = userNames.getFriends().push(name);
+                 friendList = userNames.getFriends();
+                 friendList.push(name);
                  self.user = "";
              }else {
                  name = userNames.getGuestName();
