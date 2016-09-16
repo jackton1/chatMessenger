@@ -51,7 +51,7 @@ var MessengerApi = function(){
         //hence http.Server instance returned by self.http.listen
         self.socket = self.io.listen(self.appServer);
 
-        var user = "";
+        self.user = "";
         self.app.post('/', function (req, res) {
             //get the login details
             var data = "";
@@ -61,27 +61,27 @@ var MessengerApi = function(){
                 var userInfo = urlcodeJson.decode(data);
                 var username = userInfo.username.replace("+", " ");
                 res.writeHead(303, {"Location": "/"});
-                user = username; //If a post req is a new username
+                self.user = username; //If a post req is a new username
                 res.end();
             });
 
         });
-
+        var index = 0;
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
             var name;   //returns string of the user name Guest 1
             var friendList;
-             if (user !== "") {
-                 name = user;
-                 friendList = userNames.getFriends().push(user);
-                 user = "";
-             }else{
+             if (self.user !== "") {
+                 name = self.user;
+                 //send the new user their name and a list of friends
+                 friendList = userNames.getFriends().slice(index, 1, name);
+                 self.user = "";
+             }else {
                  name = userNames.getGuestName();
                  friendList = userNames.getFriends();
              }
-            //send the new user their name and a list of friends
             socket.emit(INIT, {name: name, friends: friendList});
-
+            console.log(friendList, name);
             //notify other clients that a new user has joined
             socket.broadcast.emit(USER_JOIN, {name: name});
 
