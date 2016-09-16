@@ -10,7 +10,6 @@ friends.claim = function(name){
     }
 };
 
-var index = 0;
 /*
 * Use LRU pattern to find unused guest name and claim it.
 **/
