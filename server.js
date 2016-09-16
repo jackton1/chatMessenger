@@ -69,14 +69,16 @@ var MessengerApi = function(){
         self.socket.on(CONNECTION, function(socket){
             console.log('a user connected');
             var name;   //returns string of the user name Guest 1
-            var friendList = userNames.getFriends();
+            var friendList;
              if (self.user !== "") {
                  name = self.user;
                  //send the new user their name and a list of friends
+                 friendList = userNames.getFriends();
                  friendList.push(name);
                  self.user = "";
              }else {
                  name = userNames.getGuestName();
+                 friendList = userNames.getFriends();
              }
             socket.emit(INIT, {name: name, friends: friendList});
             console.log(friendList, name);
